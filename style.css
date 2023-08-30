@@ -39,7 +39,7 @@ html
 }
 .nxt :hover
 {
-    background-color: #C883AD;
+    background-color: #DFDFDF;
 }
 .spiral 
 {
@@ -47,7 +47,7 @@ html
 }
 .spiral li:hover
 {
-    background-color: #C883AD;
+    background-color: #DFDFDF;
 }
 .nav li 
 {
@@ -86,7 +86,7 @@ html
 }
 .search-input input:hover
 {
-    background-color: #C883AD;
+    background-color: #DFDFDF;
 }
 .sam ul,
 .aqua ul 
@@ -226,6 +226,14 @@ html
     width: 92%;
     margin-left: 80px;
 }
+@media(max-width : 666px)
+{
+    .wid
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
 .note h2
 {
     margin-left: 80px;
@@ -289,12 +297,12 @@ html
 }
 @media (max-width: 666px) 
 {
-.glass
-{
-    margin-left: 0px;
+    .glass
+    {
+        margin-left: 0px;
+    }
 }
 
-}
 .seven
 {
     margin-left: 90px;
@@ -325,6 +333,16 @@ html
     width: 91%;
     margin-left: 90px;
 }
+@media (max-width: 666px) 
+{
+    .newss
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+
 .tisken
 {
     display: flex;
